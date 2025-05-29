@@ -1,36 +1,41 @@
 <p align="center">
-  <img src="images/Screenshot-2025-05-29-104820-pica.png" alt="VPC-Builder Logo" width="400"/>
+  <img src="https://github.com/FanoyG/vpc-builder/blob/main/assets/vpc-builder-high-resolution-logo.png" alt="vpc-builder Logo" width="400"/>
 </p>
-
 <p align="center">
-  <a href="https://github.com/Fanoy/VPC-Builder">
-    <img src="https://img.shields.io/github/stars/Fanoy/VPC-Builder?style=social" alt="GitHub stars"/>
-  </a>
-  <a href="https://github.com/Fanoy/VPC-Builder/issues">
-    <img src="https://img.shields.io/github/issues/Fanoy/VPC-Builder" alt="GitHub issues"/>
-  </a>
-  <a href="https://github.com/Fanoy/VPC-Builder/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Fanoy/VPC-Builder" alt="MIT License"/>
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python Version"/>
-  </a>
+  <!-- ⭐ GitHub Project Info -->
+  <img src="https://img.shields.io/github/stars/FanoyG/vpc-builder?style=social" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/forks/FanoyG/vpc-builder?style=social" alt="GitHub Forks"/>
+  <img src="https://img.shields.io/github/issues/FanoyG/vpc-builder?color=yellow" alt="GitHub Issues"/>
+  <img src="https://img.shields.io/github/issues-pr/FanoyG/vpc-builder?color=blueviolet" alt="GitHub Pull Requests"/>
+  <img src="https://img.shields.io/github/license/FanoyG/vpc-builder?color=brightgreen" alt="GitHub License"/>
+
+  <!-- 🐍 Python & Platform -->
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python Version"/>
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey" alt="Supported Platforms"/>
+
+  <!-- 🚀 Activity -->
+  <img src="https://img.shields.io/github/last-commit/FanoyG/vpc-builder?color=blue" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/repo-size/FanoyG/vpc-builder?color=orange" alt="Repo Size"/>
+  <img src="https://img.shields.io/github/contributors/FanoyG/vpc-builder?color=purple" alt="Contributors"/>
+
+  <!-- 🌐 Community & Docs -->
+  <img src="https://img.shields.io/badge/GitHub%20Codespaces-Open%20Now-blue?logo=github" alt="GitHub Codespaces"/>
+  <img src="https://img.shields.io/badge/Docs-Available-brightgreen" alt="Docs Available"/>
+  <img src="https://img.shields.io/badge/Made%20with-❤️-red" alt="Made with Love"/>
 </p>
 
-
-# 🚀 VPC-Builder
-
-*A Python CLI tool to simplify AWS VPC creation and management using Terraform principles.*
+<h3 align="center"><em>Simplify and automate AWS VPC creation and management with a powerful Python CLI tool leveraging AWS CLI — designed for efficiency, scalability, and ease of use.</em></h3>
 
 
 
-## 🌐 Overview
+---
+# 🌐 Overview
 
-**VPC-Builder** is a beginner-friendly yet powerful Python CLI tool that helps you create, access, modify, and delete AWS Virtual Private Clouds (VPCs) and their components with ease.
+**vpc-builder** is a beginner-friendly yet powerful Python CLI tool that helps you create, access, modify, and delete AWS Virtual Private Clouds (VPCs) and their components with ease.
 
 No need to touch the AWS Console or memorize CLI syntax — just follow the interactive prompts!
 
-### ❓ Why Use VPC-Builder?
+### ❓ Why Use vpc-builder?
 
 - 🚫 No AWS Console or complex CLI needed  
 - 👶 Beginner-friendly flow, great for learners  
@@ -58,16 +63,6 @@ No need to touch the AWS Console or memorize CLI syntax — just follow the inte
 - 💡 **Error Handling:** Edge-case validations built in  
 - 🌈 **Beautiful Interface:** Rich formatting and color-coded output  
 - ⏳ **Coming Soon:** Peering, Flow Logs, CloudWatch Monitoring  
-
----
-
-## 🖼️ Screenshots
-
-| Access Flow | Create Flow |
-|-------------|-------------|
-| ![Access Flow](https://via.placeholder.com/400x200?text=Access+Flow+Demo) | ![Create Flow](https://via.placeholder.com/400x200?text=Create+Flow+Demo) |
-
-> 💡 Replace these images with real terminal GIFs or screenshots using tools like [Peek](https://github.com/phw/peek) or [asciinema](https://asciinema.org/).
 
 ---
 
@@ -102,8 +97,8 @@ vpc-builder/
 
 1. **Clone the repository**
     ```
-    git clone https://github.com/Fanoy/VPC-Builder.git
-    cd VPC-Builder
+    git clone https://github.com/FanoyG/vpc-builder.git
+    cd vpc-builder
     ```
 
 2. **(Optional) Set up a virtual environment**
@@ -125,7 +120,7 @@ vpc-builder/
 ---
 
 ## 🎬 Demo (Coming Soon)
-[📺 Watch the VPC-Builder walkthrough on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_LINK)
+[📺 Watch the vpc-builder walkthrough on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_LINK)
 
 ---
 
@@ -134,14 +129,13 @@ vpc-builder/
 - ✅ **Ensure AWS CLI is configured** (`aws configure`)
 - ✅ **Confirm IAM role has VPC-related permissions**
 - ✅ **Run from the root directory**
-- 🤝 **Still stuck? [Open an issue](https://github.com/Fanoy/VPC-Builder/issues)**
+- 🤝 **Still stuck? [Open an issue](https://github.com/FanoyG/vpc-builder/issues)**
 
 ---
 
 ## 🧪 Tests (Planned)
-
-We're working on unit and integration tests using `pytest`.  
-Want to help? Check the `tests/` folder or [open an issue](https://github.com/Fanoy/VPC-Builder/issues).
+  - We're working on unit and integration tests using `pytest`.  
+  - Want to help? Check the `tests/` folder or [open an issue](https://github.com/FanoyG/vpc-builder/issues).
 
 ---
 
@@ -166,28 +160,51 @@ We welcome all contributions!
 - 🎨 **Designers:** Enhance UX and visual flow
 - 🧑‍💻 **Frontend Developers:** Build the future GUI
 
-**Steps to Contribute:**
+**Steps to Contribute (Command Line):**
 
-> &nbsp;&nbsp;&nbsp;1. Fork this repo  
-> &nbsp;&nbsp;&nbsp;2. Create a new branch  
-> &nbsp;&nbsp;&nbsp;3. Make your changes  
-> &nbsp;&nbsp;&nbsp;4. Submit a PR 🎉  
+> 1. **Fork this repo**  
+>    Using GitHub CLI (recommended):  
+>    ```
+>    gh repo fork FanoyG/vpc-builder --clone
+>    cd vpc-builder
+>    ```
+>    *Or manually fork on GitHub, then clone your fork:*  
+>    ```
+>    git clone https://github.com/<your-username>/vpc-builder.git
+>    cd vpc-builder
+>    ```
 
+> 2. **Create a new branch**  
+>    ```
+>    git checkout -b my-feature-branch
+>    ```
+
+> 3. **Make your changes**  
+>    *(Edit, add, or delete files as needed)*
+
+> 4. **Submit a PR 🎉**  
+>    ```
+>    git add .
+>    git commit -m "Describe your changes"
+>    git push origin my-feature-branch
+>    ```
+>    Then, open a Pull Request on GitHub from your branch.
 
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the <a href="https://github.com/FanoyG/vpc-builder/blob/main/LICENSE">MIT Licence.</a>
+
 
 ---
 
 ## 👤 Author
 
-**Fanoy**  
-[GitHub: Fanoy](https://github.com/Fanoy)  
-India 🇮🇳 | Python Developer | Cloud Enthusiast
+**FanoyG**  
+[GitHub: FanoyG](https://github.com/FanoyG)  
+India 🇮🇳 | Cloud Engineer | AWS Infra-as-Code Builder (Python + CLI)
 
 > “When something is important enough, you do it even if the odds are not in your favor.” — Elon Musk
 
@@ -211,6 +228,6 @@ If unsure, press `Ctrl + C` to safely exit the CLI anytime.
 - 🧪 **More Test Coverage**
 - 🖥️ **GUI Dashboard (React/Tailwind-based)**
 
-Have a cool feature idea? [Open an issue](https://github.com/Fanoy/VPC-Builder/issues) or submit a PR!
+Have a cool feature idea? [Open an issue](https://github.com/FanoyG/vpc-builder/issues) or submit a PR!
 
-<p align="center"> Made with ❤️ by <strong>Fanoy</strong> <br/> Python Developer &#124; AWS Explorer &#124; Open Source Builder </p>
+<p align="center"> Made with ❤️ by <strong>FanoyG</strong> <br/> Automation Enthusiast (Python) &#124; AWS Explorer &#124; Open Source Builder </p>
