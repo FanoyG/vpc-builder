@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VB Logo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      margin: 0;
+      background: #0f172a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .logo-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #1e293b;
+      padding: 2.5rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .logo-svg {
+      width: 180px;
+      height: 180px;
+    }
+
+    .outer-ring {
+      fill: none;
+      stroke: #f97316; /* Orange */
+      stroke-width: 10;
+      stroke-dasharray: 280;
+      animation: rotate 6s linear infinite;
+      transform-origin: center;
+    }
+
+    .accent-shape {
+      fill: #3b82f6; /* Blue */
+      opacity: 0.9;
+      transform-origin: center;
+      animation: pulse 3s ease-in-out infinite alternate;
+    }
+
+    .inner-text {
+      fill: #f97316; /* Orange */
+      font-weight: 800;
+      font-size: 68px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.9; }
+      100% { transform: scale(1.05); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-wrapper">
+    <svg class="logo-svg" viewBox="0 0 100 100">
+      <circle class="outer-ring" cx="50" cy="50" r="45"/>
+      <path class="accent-shape" d="M 65 25 L 75 35 L 65 45 L 55 35 Z" transform="rotate(45, 50, 50) translate(10, -10)"/>
+      <text class="inner-text" x="50" y="52">VB</text>
+    </svg>
+  </div>
+</body>
+</html>
